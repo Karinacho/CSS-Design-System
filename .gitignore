@@ -1,0 +1,70 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / output
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.parcel-cache/
+.cache/
+coverage/
+.nyc_output/
+reports/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Package managers
+jspm_packages/
+.pnp.*
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Compiled / binary files
+*.class
+*.o
+*.so
+*.exe
+
+# Misc
+coverage/
+coverage-final.json
+
+# Keep lockfiles under source control (do not ignore): package-lock.json, yarn.lock, pnpm-lock.yaml
