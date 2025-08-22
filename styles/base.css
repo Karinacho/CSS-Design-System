@@ -1,0 +1,29 @@
+:root {
+  --bg: #09090B;
+  --gap: 1rem;
+  --font-color: #fafafa;
+  --font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+
+
+}
+
+body {
+    background: var(--bg);
+    color: var(--font-color);
+    font-family: var(--font-family);
+
+}
+
+header {
+    margin-top: 10px;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+nav {
+    a {
+        text-decoration: none;
+        color: var(--font-color);
+        cursor: pointer;
+    }
+}
